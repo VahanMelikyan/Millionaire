@@ -1,0 +1,85 @@
+{
+  "user": [
+    {
+      "name": "Vahan",
+      "last_name": "Melikyan",
+      "email": "mel@mail.ru",
+      "id": 1
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which material is most dense?",
+      "content": [
+        "Silver",
+        "Styrofoam",
+        "Butter",
+        "Gold"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which state in the United States is largest by area?",
+      "content": [
+        "Alaska",
+        "California",
+        "Texas",
+        "Hawaii"
+      ],
+      "correct": 0
+    },
+    {
+      "correct": 1,
+      "content": [
+        "1968",
+        "1929",
+        "1901",
+        "1965"
+      ],
+      "question": "Oscar Awards were instituted in"
+    },
+    {
+      "correct": 2,
+      "content": [
+        "1998",
+        "1989",
+        "1979",
+        "1800"
+      ],
+      "question": "When did Margaret Thatcher became the first female Prime Minister of Britain?"
+    },
+    {
+      "correct": 2,
+      "content": [
+        "15th April",
+        "12th December",
+        "1st May",
+        "1st August"
+      ],
+      "question": "When is the International Workers' Day?"
+    }
+  ],
+  "top": [
+    {
+      "name": "Vahan",
+      "last_name": "Melikyan",
+      "email": "melikyanvl@gmail.com",
+      "score": 5,
+      "id": 1
+    },
+    {
+      "name": "Vahan",
+      "last_name": "Melikyan",
+      "email": "melikyanvl@gmail.com",
+      "score": 2,
+      "id": 2
+    },
+    {
+      "name": "Vahan",
+      "last_name": "Melikyan",
+      "email": "mel@mail.ru",
+      "score": 2,
+      "id": 3
+    }
+  ]
+}
