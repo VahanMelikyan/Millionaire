@@ -1,0 +1,73 @@
+//logo styles
+.logo {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(-45deg, #000 10%, #425ca9 90%);
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid #c9def3;
+  text-shadow: 5px 5px 1px #000;
+  .elipse {
+    width: 40px;
+    height: 420px;
+    position: absolute;
+    border: 2px solid #9db7d2;
+    border-radius: 50% 100%;
+    z-index: 5;
+    left: 221px;
+    top: 32px;
+  }
+  @for $i from 1 through 9 {
+    .elipse#{$i} {
+      transform: rotate(($i * 20)+deg);
+    }
+  }
+  .inner-circle {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    background: #001621;
+    border: 10px solid #d2e4fa;
+    border-radius: 50%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  .title {
+    font-size: 60px;
+    width: 500px;
+    z-index: 10;
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    top: 190px;
+    left: -10px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    position: relative;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

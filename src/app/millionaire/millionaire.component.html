@@ -1,0 +1,43 @@
+<!-- Start player  -->
+<div *ngIf="switch" class="card b_color">
+    <div class="card-block text-nowrap text-center">
+        <h1 style="color: black">
+            Player {{user.name+" "}}{{user.last_name+" "}}
+        </h1>
+    </div>
+</div>
+<!--End player -->
+
+<!--Start game -->
+<div class="container">
+    <div *ngIf="switch_1" class="row bord justify-content-center ">
+
+        <div class="col-12 col-md-10  bord_1 center ">
+
+            <h1 class="text-center">Question</h1>
+            <h3 style="text-align: center">{{quest.question}}</h3></div>
+        <div class="row ">
+            <div *ngFor="let answer of quest.content;let i = index" class="col-6 ">
+                <div class="col-12 border_2" tabindex="1" (click)="selectAnswer(i)"><p>{{answer}}</p></div>
+            </div>
+            <!-- Button -->
+            <div class="col-md-12 text-center">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary" [disabled]="disable_1"
+                        (click)="stepChange()">Next Step
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End game -->
+
+<!-- Start player result -->
+<div *ngIf="disable_div" class="container">
+    <h2>Your Result</h2>
+    <p>You answered {{this.answers.length}} questions correctly out of 5.</p>
+    <button type="button" class="btn btn-primary" (click)="postPlayerResult()">
+        Top Result
+    </button>
+</div>
+<!-- End player result -->

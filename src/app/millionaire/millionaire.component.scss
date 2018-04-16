@@ -1,0 +1,44 @@
+.bord {
+  border: 5px solid #5D91EE;
+  border-radius: 7px;
+  margin-top: 20px;
+  height: 550px;
+  background-color: black;
+}
+
+.bord_1 {
+  border: 5px solid #5D91EE;
+  border-radius: 7px;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.border_2 {
+  border: 5px solid #5D91EE;
+  border-radius: 7px;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+}
+
+.border_2:hover {
+  background-color: #5D91EE;
+  cursor: pointer;
+}
+
+.border_2:focus {
+  background-color: #5D91EE;
+}
+
+.b_color {
+  background-color: #5D91EE;
+}
+
+h1, h2, h3, h4, p {
+  color: azure;
+}
+
+p {
+  font-size: 18px;
+}
