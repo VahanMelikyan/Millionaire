@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-prebuild": "npm run build"
+    "heroku-prebuild": "npm install --only=dev && npm run build"
   },
   "private": true,
   "dependencies": {
