@@ -8,23 +8,23 @@ export class CommonService {
     }
 
     postReg = obj => {
-        return this.http.post("http://localhost:5555/user/", obj);
-    };
+        return this.http.post('https://fake-millionaire-server-app.herokuapp.com/user/', obj);
+    }
 
     getInfo = () => {
-        return this.http.get("http://localhost:5555/user/");
+        return this.http.get('https://fake-millionaire-server-app.herokuapp.com/user/');
 
-    };
+    }
 
     getQuestions = () => {
-        return this.http.get("http://localhost:5555/questions/");
-    };
+        return this.http.get('https://fake-millionaire-server-app.herokuapp.com/questions/');
+    }
 
     postPlayer = user => {
-        return this.http.post("http://localhost:5555/top/", user);
-    };
+        return this.http.post('https://fake-millionaire-server-app.herokuapp.com/top/', user);
+    }
 
     getPlayerList = () => {
-        return this.http.get("http://localhost:5555/top/");
-    };
+        return this.http.get('https://fake-millionaire-server-app.herokuapp.com/top/');
+    }
 }
